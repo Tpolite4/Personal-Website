@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('https://fonts.gstatic.com/s/delicioushandrawn/v1/UGUIrO8yH8NXJFuEd1fLhS4pL2HLCuk.woff2')
+    format('woff2');
+  font-weight: bold;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: 'myFont';
+  font-weight: bold;
+}
+.Title {
+  font-size: 3em;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Intro {
+  background-color: aliceblue;
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+  padding: 3rem;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+img {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  border-radius: 8px;
+}
+
+li {
+  list-style-type: none;
+  padding: 1em;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: left;
+  margin: 5rem;
+  padding: 5rem;
+}
+
+li a:hover {
+  color: ;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
