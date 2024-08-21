@@ -31,25 +31,55 @@
     <br /><br />
     <img
       src="https://thumb.ac-illust.com/8b/8b8dc0f7cfb9b8bc5512950bb51e996c_t.jpeg"
+      alt="Welcome!"
+      class="parallax-image"
     />
+    <script>
+      window.addEventListener('scroll', function () {
+        const scrollValue = window.scrollY;
+        const image = document.querySelector('.parallax-image');
+        image.style.top = 100 + scrollValue * 0.5 + 'px'; // Adjust the multiplier for different speeds
+      });
+    </script>
     <Projects id="Projects">
-      <h2>Projects</h2>
+      <h2 class="project"><span class="highlight">Projects</span></h2>
       <ul>
         <li>
           <a
+            target="_blank"
             href="file:///Users/tylerpolite/fcny-unit-5-text-adventure/index.html"
             >Text Adventure Game: Road to the NBA</a
           >
         </li>
-        <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
-        <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
-        <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
-        <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
+        <li>Interactive App That Solves a Real-World Problem</li>
+        <li>Snake Game</li>
+        <li>Hackathon App</li>
+        <li>Capstone Project</li>
         <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
       </ul>
     </Projects>
     <Contact id="Contact Me"></Contact>
-    <h2>Let's Build!</h2>
-    <a href="https://calendly.com/tpolite4">Schedule Here</a>
+    <h2 class="contact"><span class="highlight">Let's Build!</span></h2>
+    <a class="schedule" target="_blank" href="https://calendly.com/tpolite4"
+      >Schedule Here</a
+    >
+    <br />
+    <thumbnails class="thumbnails">
+      <img
+        src="IMAGES/LinkedIn thumbnail.png"
+        alt="LinkedIn_thumbnail"
+        target="_blank"
+        style="width: 3rem"
+      />
+    </a>
+    <br />
+    
+      <img
+        src="IMAGES/Github.png"
+        alt="Github_thumbnail"
+        target="_blank"
+        style="width: 3rem"
+      />
+    </thumbnails>
   </body>
 </html>
