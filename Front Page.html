@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Website.css" />
-    <script src="path/to/my/script.js"></script>
     <title>Tyler's Corner</title>
   </head>
   <body>
@@ -13,7 +12,11 @@
         <li><a href="#Home">Home</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contact Me">Contact</a></li>
-        <li><a href="#About Me">About Me</a></li>
+        <li>
+          <a href="file:///Users/tylerpolite/Personal-Website/AboutMe.html"
+            >About Me</a
+          >
+        </li>
       </ul>
     </nav>
     <home id="Home">
@@ -44,18 +47,20 @@
     <Projects id="Projects">
       <h2 class="project"><span class="highlight">Projects</span></h2>
       <ul>
-        <li>
+        <li class="box">
           <a
             target="_blank"
             href="file:///Users/tylerpolite/fcny-unit-5-text-adventure/index.html"
             >Text Adventure Game: Road to the NBA</a
           >
         </li>
-        <li>Interactive App That Solves a Real-World Problem</li>
-        <li>Snake Game</li>
-        <li>Hackathon App</li>
-        <li>Capstone Project</li>
-        <li>Lorem ipsum odor amet, consectetuer adipiscing elit.</li>
+        <li class="box">Interactive App That Solves a Real-World Problem</li>
+        <li class="box">Snake Game</li>
+        <li class="box">Hackathon App</li>
+        <li class="box">Capstone Project</li>
+        <li class="box">
+          Lorem ipsum odor amet, consectetuer adipiscing elit.
+        </li>
       </ul>
     </Projects>
     <Contact id="Contact Me"></Contact>
@@ -65,21 +70,29 @@
     >
     <br />
     <thumbnails class="thumbnails">
-      <img
-        src="IMAGES/LinkedIn thumbnail.png"
-        alt="LinkedIn_thumbnail"
+      <a
         target="_blank"
-        style="width: 3rem"
-      />
-    </a>
-    <br />
-    
-      <img
-        src="IMAGES/Github.png"
-        alt="Github_thumbnail"
-        target="_blank"
-        style="width: 3rem"
-      />
+        href="https://www.linkedin.com/in/tyler-s-polite-4b5276123/"
+      >
+        <img
+          src="IMAGES/LinkedIn thumbnail.png"
+          alt="LinkedIn_thumbnail"
+          target="_blank"
+          style="width: 3rem"
+          href="https://www.linkedin.com/in/tyler-s-polite-4b5276123/"
+        />
+      </a>
+      <br />
+      <a target="_blank" href="https://github.com/Tpolite4">
+        <img
+          src="IMAGES/Github.png"
+          alt="Github_thumbnail"
+          target="_blank"
+          style="width: 3rem"
+        />
+      </a>
+      <i class="fa-solid fa-envelope fa-shake"></i>
     </thumbnails>
+    <p class="TM">© 2024 Tyler Polite</p>
   </body>
 </html>
